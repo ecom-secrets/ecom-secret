@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap')
+
+.cairo-<uniquifier>
+{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+* {
+	direction: rtl;
+	font-family: Cairo;
+	margin: 0;
+	padding: 0;
+	background: rgb(47, 47, 47);
+	color: white;
+	box-sizing: border-box;
+	scrolling-behavior: smooth;
+}
+
+header, header a{
+	background: black;
+}
+
+.logo-container{
+	background: rgb(28, 28, 28);
+	width: fit-content;
+	margin: auto;
+}
+
+header h1, h2, h3 {
+	background: rgb(28, 28, 28);
+	padding: 35px;
+	margin-bottom: 50px;
+	text-align: center;
+	padding: 25px; 
+}
+
+h2, h3 {
+	padding: 0;
+	width: 70%;
+	margin: 20px auto;
+}
+
+h2 span {
+		color: maroon;
+		background: rgb(28, 28, 28);
+	}
+
+video {
+	display: block;
+	margin: auto;
+	width: 70%;
+}
+
+
+.plan-content {
+	width: 90%;
+	margin: 50px auto 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.plan-title {
+	width: 95%;
+	background: black;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+
+ul {
+	margin: auto;
+	width: 95%;
+	height: 100%;
+	list-style-type: none;
+	text-align: right;
+}
+
+li {
+  padding: 5px;
+}
+
+.cost {
+	width: 90%;
+	font-size: 1em;
+	background: black;
+	margin: auto;
+	padding: 5px 10px;
+	direction: ltr;
+}
+
+a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding: 10px 5px;
+}
+
+div {
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+.fill {
+	display: inline-block;
+	width: 90%;
+	background: maroon;
+	margin: auto;
+}
+
+h4 {
+	width: 90%;
+	background: maroon;
+	margin-left: auto;
+}
+
+h4 {
+	display: block;
+	width: fit-content;
+	margin: 50px auto 20px; 
+}
+
+.fill:hover {
+	background: rgb(143, 31, 31);
+}
+
+
+.whats:hover {
+	text-decoration: underline;
+}
+
+
+footer {
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+
+	footer p {
+		text-align: center;
+		margin: auto;
+		font-size: 14px;
+		padding-bottom: 15px;
+		color: gray;
+	}
+
+@media (max-width: 1040px) {
+	.whats img{
+		width: 60px;
+		height: 60px;
+	}
+	
+	h2, h3, .plan-content, .fill, h4 {
+		font-size: 1.8em;
+	}
+
+	.cost {font-size: 1em;font-weight: bolder;}
+
+	.card {
+		width: 100%;
+	}
+
+	ul li {
+		/*border: 1px solid red;*/
+		text-align: right;
+		width: 90%;
+		margin: auto;
+	}
+
+	.cost {
+		width: 95%;
+		margin: 20px auto;
+	}
+
+	a {font-size: 2em}
+	header img{ width: 200px; height: 160px}
+	
+	footer p {font-size: 1.8em}
+}
