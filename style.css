@@ -14,7 +14,7 @@
 	font-family: Cairo;
 	margin: 0;
 	padding: 0;
-	background: rgb(47, 47, 47);
+	background-image: linear-gradient(to left top, #977DFE,  #6878FF);
 	color: white;
 	box-sizing: border-box;
 	scrolling-behavior: smooth;
