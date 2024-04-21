@@ -19,7 +19,7 @@
 }
 
 header, header a{
-	background: black;
+	background: linear-gradient(to right bottom, #000519, #004059); color: white;
 }
 
 .logo-container{
