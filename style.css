@@ -14,8 +14,7 @@
 	font-family: Cairo;
 	margin: 0;
 	padding: 0;
-	background-image: linear-gradient(to left top, #977DFE,  #6878FF);
-	color: white;
+	background: linear-gradient(to right bottom, #000519, #004059);	color: white;
 	box-sizing: border-box;
 	scrolling-behavior: smooth;
 }
