@@ -121,6 +121,7 @@ div {
 	width: 90%;
 	background: maroon;
 	margin: auto;
+	transition: 0.4s all;
 }
 
 h4 {
@@ -137,6 +138,7 @@ h4 {
 
 .fill:hover {
 	background: rgb(143, 31, 31);
+	font-size: 20px;
 }
 
 
