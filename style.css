@@ -28,6 +28,11 @@ header, header a{
 	margin: auto;
 }
 
+.logo{
+	width: 600px;
+	height: 200px;
+}
+
 header h1, h2, h3 {
 	background: rgb(28, 28, 28);
 	padding: 35px;
